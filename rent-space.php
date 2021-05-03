@@ -16,7 +16,7 @@ require_once "./config/auth_controller.php";
                 <div class="row vh-75 justify-content-center">
                   <div class="col-md-8 col-xl-6 align-self-end">
                     <h1 class="display-2">Own your space</h1>
-                    <p class="lead">As the primary retail facility for the surrounding community, The Vineyard Mall strives to provide a complete shopping and entertainment experience. With with foreign and local brands as anchor tenants, as well as KFC, the mall has approximately 50 shops with ample parking bays.</p>
+                    <p class="lead">As the primary retail facility for the surrounding community, The Vineyard Mall strives to provide a complete shopping and entertainment experience. With foreign and local brands as anchor tenants, as well as KFC, the mall has approximately 50 shops with ample parking bays.</p>
                   </div>
                 </div>
               </div>

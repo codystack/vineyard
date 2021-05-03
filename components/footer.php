@@ -38,7 +38,7 @@
     <script src="./assets/js/app.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="//code.tidio.co/5jp3rjgxxp00tz1xtzllemukkutin4zm.js" async></script> 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAME5wJgLdn1aQSxC7-iWxJ3isuveK9Rv4&amp;callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDODKndJ8udk9xrwV_9KZwzziQOgsAR3Ew&amp;callback=initMap" async defer></script>
 
     <?php
       if (isset($_SESSION['success_message']))
