@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'thevine1_mall', 'Webify2020!!', 'thevine1_mall');
+$conn = new mysqli('localhost', 'root', '', 'vineyard');
 // Turn on error reporting
 error_reporting(E_ALL ^ E_NOTICE);
 // Check database connection

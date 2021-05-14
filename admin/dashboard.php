@@ -199,7 +199,7 @@ require_once "../config/auth_controller.php";
                                         echo "<td class=\"budget\">" .date("d(D) M Y", strtotime($date)). "</td>";
 
                                         echo "<td class='text-right'>"
-                                            ."<button class=\"btn btn-icon contactinfo btn-sm btn-info\" data-id='".$id."'>
+                                            ."<button class=\"btn btn-icon spaceinfo btn-sm btn-info\" data-id='".$id."'>
                                                 <span class=\"btn-inner--icon\"><i class=\"ni ni-zoom-split-in\"></i></span>
                                                 <span class=\"btn-inner--text\"><i class='far fa-eye'></i>View</span>
                                             </button>

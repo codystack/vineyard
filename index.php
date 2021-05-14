@@ -151,8 +151,8 @@ include "./components/navbarlight.php";
           <div class="col-md-8 col-lg-6 text-white text-center">
             <h2><b>Opening</b> Hours</h2>
             <h5>Shop in a safe space</h5>
-            <p class="lead">Mon - Fri: 9am - 8pm<br> Sat - Sun: 11am - 8pm</p>
-            <h4>Call Us: <a href="tel:0811 716 8063">0811 716 8063</a></h4>
+            <p class="lead">Mon - Sat: 9am - 6pm<br> Sun: 10am - 6pm</p>
+            <h4>Call Us: <a href="tel:+2347087045940">0708 704 5940</a></h4>
           </div>
         </div>
         <div class="row text-white" data-aos="fade-left">
