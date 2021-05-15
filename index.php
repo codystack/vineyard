@@ -152,7 +152,7 @@ include "./components/navbarlight.php";
             <h2><b>Opening</b> Hours</h2>
             <h5>Shop in a safe space</h5>
             <p class="lead">Mon - Sat: 9am - 6pm<br> Sun: 10am - 6pm</p>
-            <h4>Call Us: <a href="tel:+2347087045940">0708 704 5940</a></h4>
+            <h4>Call Us: <a href="tel:+2347011666864">0701 166 6864</a></h4>
           </div>
         </div>
         <div class="row text-white" data-aos="fade-left">
