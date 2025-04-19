@@ -7,7 +7,7 @@ include "./components/navbarlight.php";
     <section class="hero hero-with-header text-white"
       data-top-top="transform: translateY(0px);" 
       data-top-bottom="transform: translateY(250px);">
-      <div class="image image-overlay" style="background-image:url(./assets/images/dirimg.jpg)"></div>
+      <div class="image image-overlay" style="background-image:url(./assets/images/aboutimg.jpeg); background-position: top;"></div>
       <div class="container">
         <div class="row align-items-center">
           <div class="col text-shadow">
@@ -19,66 +19,23 @@ include "./components/navbarlight.php";
     </section>
     <!-- / cover -->
 
-    <!-- team -->
-    <section class="bg-white">
+    <section class="bg-light separator-bottom">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6 text-center">
-            <span class="eyebrow d-block mb-1 text-primary">Scroll down to view our store directory.</span>
-            <p class="lead text-black">The centre incorporates the latest elements in modern shopping centre design and aims to provide visitors with state-of-the-art facilities in a user-friendly, safe and pleasant environment.</p>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-5 pl-md-5 text-center text-md-left">
+            <span class="eyebrow text-primary mb-1">Special for you</span>
+            <h2 class="mb-2"><b>Air Baloon</b> Festival</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos tempore, inventore accusamus odio</p>
+            <a href="" class="btn btn-primary btn-rounded">Book Now</a>
           </div>
-        </div>
-        <div class="row gutter-0">
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <figure class="user">
-              <a href="#" class="user-photo">
-                <img src="./upload/healthplus.jpg" alt="Avatar">
-              </a>
-              <figcaption class="user-caption">
-                <h4 style="font-weight: 500">Health Plus</h4>
-                <ul class="socials bordered">
-                    <li><a href="#" class="icon-phone fs-20"></a></li>
-                    <li><a href="#" class="icon-globe fs-20"></a></li>
-                </ul>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <figure class="user">
-              <a href="#" class="user-photo">
-                <img src="./upload/healthplus.jpg" alt="Avatar">
-              </a>
-              <figcaption class="user-caption">
-                <h4 style="font-weight: 500">Health Plus</h4>
-                <ul class="socials bordered">
-                    <li><a href="#" class="icon-phone fs-20"></a></li>
-                    <li><a href="#" class="icon-globe fs-20"></a></li>
-                </ul>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <figure class="user">
-              <a href="#" class="user-photo">
-                <img src="./upload/healthplus.jpg" alt="Avatar">
-              </a>
-              <figcaption class="user-caption">
-                <h4 style="font-weight: 500">Health Plus</h4>
-                <ul class="socials bordered">
-                    <li><a href="#" class="icon-phone fs-20"></a></li>
-                    <li><a href="#" class="icon-globe fs-20"></a></li>
-                </ul>
-              </figcaption>
-            </figure>
+          <div class="col-md-6 aos-init aos-animate" data-aos="zoom-in">
+            <div class="presentation-circle">
+              <figure style="background-image: url('./assets/images/dirimg.jpg')"></figure>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- / team -->
-
 
 
 

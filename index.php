@@ -112,10 +112,10 @@ include "./components/navbarlight.php";
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-4">
-            <h2>The Vineyard Mall is more than shopping, it's an experience.</h2>
+            <h2>The Vineyard Mall: Where Every Visit Becomes an Experience.</h2>
           </div>
           <div class="col-lg-6">
-            <p class="lead">The Vineyard Mall is a world class state-of-the-art facility which features luxurious retail shop spaces, elegant food court and restaurant, serene relaxation spot and nightlife entertainment area and so much more. This premium shopping and lifestyle destination.</p>
+            <p class="lead">Discover more than just shopping at The Vineyard Mall. From delightful dining options and family-friendly entertainment to unique retail finds, we offer a vibrant destination that caters to all ages. Come and experience the perfect blend of leisure, lifestyle, and community in the heart of Port Harcourt.</p>
           </div>
         </div>
       </div>
@@ -278,5 +278,7 @@ include "./components/navbarlight.php";
       </div>
     </section>
     <!-- / presentation -->
+
+    <?php include "./components/cta.php"; ?>
 
 <?php include "./components/footer.php";?>
