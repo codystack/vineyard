@@ -2,7 +2,7 @@
 <header class="header-sticky header-light">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="\">
+          <a class="navbar-brand" href="./">
             <img class="navbar-logo navbar-logo-light" src="./assets/images/vinelogo_white.png" alt="Logo">
             <img class="navbar-logo navbar-logo-dark" src="./assets/images/vinelogo.png" alt="Logo">
           </a>
@@ -10,7 +10,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav align-items-center mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="\" role="button">
+                <a class="nav-link" href="./" role="button">
                   Home
                 </a>
               </li>
@@ -20,17 +20,17 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="covid19-update" role="button">
-                  Covid-19 Update
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="directory" role="button">
-                  Directory
+                  Our Facilities
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="rent-space" role="button">
+                  Rent a Space
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://vineyardmart.ng" target="_blank" role="button">
                   Rent a Space
                 </a>
               </li>

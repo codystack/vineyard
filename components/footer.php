@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="col-md-12 pb-3">
-            <p class="copyright text-sm text-center"> © <script>document.write(new Date().getFullYear());</script> The Vinneyard Mall <br>Built by <a href="https://thankgodokoro.codes" target="_blank">TeeGee&trade;</a></p>
+            <p class="copyright text-sm text-center"> © <script>document.write(new Date().getFullYear());</script> The Vinneyard Mall <br>Built by <a href="https://webify.com.ng" target="_blank">Webify</a></p>
         </div>
       </div>
     </footer>

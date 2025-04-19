@@ -1,5 +1,6 @@
 <?php
 include "./config/db.php";
+
 //GET VISTORS
 $user_ip = $_SERVER['REMOTE_ADDR'];
 $check_ip = mysqli_query($conn, "SELECT visitorip FROM traffic WHERE page ='home' and visitorip ='$user_ip'");
@@ -20,8 +21,8 @@ else
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name=description content="The Vineyard Mall is a world class state-of-the-art facility which features luxurious retail shop spaces, elegant food court and restaurant, serene relaxation spot and nightlife entertainment area and so much more located on Woji road, GRA Phase two, Port Harcourt, Rivers State, Nigeria.">
-    <meta name=author content="ThankGod Okoro">
-    <meta property="og:url" content="https://www.iverify.ng"/>
+    <meta name=author content="webify.com.ng">
+    <meta property="og:url" content="https://thevineyard.ng/"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="The Vineyard Mall&trade; :: All you need under one roof"/>
     <meta name="og:description" content="The Vineyard Mall is a world class state-of-the-art facility which features luxurious retail shop spaces, elegant food court and restaurant, serene relaxation spot and nightlife entertainment area and so much more located on Woji road, GRA Phase two, Port Harcourt, Rivers State, Nigeria.">

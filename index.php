@@ -10,15 +10,29 @@ include "./components/navbarlight.php";
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="image image-overlay" style="background-image:url(./assets/images/aboutimg.jpeg)">
+              <div class="image image-overlay" style="background-image:url(./assets/images/hero.jpg)">
               </div>
               <div class="caption text-white" data-swiper-parallax="-100%">
                 <div class="container">
                   <div class="row justify-content-center align-items-center vh-90">
-                    <div class="col-md-8 col-lg-6 text-center">
-                      <span class="eyebrow mb-2">Welcome</span>
-                      <h1 class="display-2">Your convenient shopping center</h1>
+                    <div class="col-md-8 col-lg-8 text-center">
+                      <h1 class="display-2">A World of Fun, Food & Excitment Awaits</h1>
                       <a href="directory" type="button" class="btn btn-xl btn-white">Explore the Mall</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="image image-overlay" style="background-image:url(./assets/images/mart.jpg)">
+              </div>
+              <div class="caption text-white" data-swiper-parallax="-100%">
+                <div class="container">
+                  <div class="row justify-content-center align-items-center vh-90">
+                    <div class="col-md-8 col-lg-8 text-center">
+                      <h1 class="display-2">Shop, Eat & Play</h1>
+                      <a href="https://vineyardmart.ng" target="_blank" type="button" class="btn btn-xl btn-white">Shop Online</a>
                     </div>
                   </div>
                 </div>
@@ -31,8 +45,7 @@ include "./components/navbarlight.php";
               <div class="caption text-white" data-swiper-parallax="-100%">
                 <div class="container">
                   <div class="row justify-content-center align-items-center vh-90">
-                    <div class="col-md-8 col-lg-6 text-center">
-                      <span class="eyebrow mb-2">Kids Zone</span>
+                    <div class="col-md-8 col-lg-8 text-center">
                       <h1 class="display-2">Fun filled games for kids</h1>
                       <a href="directory" type="button" class="btn btn-xl btn-white">See More</a>
                     </div>
@@ -42,15 +55,14 @@ include "./components/navbarlight.php";
             </div>
 
             <div class="swiper-slide">
-              <div class="image image-overlay" style="background-image:url(./assets/images/hme4.jpg)">
+              <div class="image image-overlay" style="background-image:url(./assets/images/hall.jpeg)">
               </div>
               <div class="caption text-white" data-swiper-parallax="-100%">
                 <div class="container">
                   <div class="row justify-content-center align-items-center vh-90">
-                    <div class="col-md-8 col-lg-6 text-center">
-                      <span class="eyebrow mb-2">Health Care</span>
-                      <h1 class="display-2">Health is wealth.</h1>
-                      <a href="directory" type="button" class="btn btn-xl btn-white">See Stores</a>
+                    <div class="col-md-8 col-lg-8 text-center">
+                      <h1 class="display-2">Memorable Events with Style and Elegance</h1>
+                      <a href="rent-space" type="button" class="btn btn-xl btn-white">Book a Space</a>
                     </div>
                   </div>
                 </div>
@@ -64,10 +76,13 @@ include "./components/navbarlight.php";
               <h5>Welcome</h5>
             </div>
             <div class="swiper-slide">
+              <h5>Vineyard Mart</h5>
+            </div>
+            <div class="swiper-slide">
               <h5>Kids Zone</h5>
             </div>
             <div class="swiper-slide">
-              <h5>Health Care</h5>
+              <h5>Hall Rental</h5>
             </div>
           </div>
         </div>
@@ -130,14 +145,14 @@ include "./components/navbarlight.php";
         <div class="row align-items-center justify-content-center presentation-container">
           <div class="col-8 col-md-6 col-lg-4" data-aos="zoom-in">
             <div class="presentation-circle">
-              <figure style="background-image: url('./assets/images/hmecovid.jpg')"></figure>
+              <figure style="background-image: url('./assets/images/game.jpeg')"></figure>
             </div>
           </div>
-          <div class="col-lg-5 col-md-6 pl-md-7 text-center text-md-left">
-            <span class="eyebrow text-danger mb-1">What are you doing to keep safe?</span>
-            <h3 class="h2">Stop the spread!</h3>
-            <p>The Vioneyard Mall is a No Mask, No Entry establishment<br><strong>Stay Safe, Take Personal Responsibility</strong><br> Your temperature will be scanned before you are allowed access into the mall. The health and safety of our customers, employees at The Vineyard mall and our community is our highest priority. Try to avoid leaving home if you feel unwell.</p>
-            <a href="covid19-update" type="button" class="btn btn-xl btn-danger">Get more update</a>
+          <div class="col-lg-6 col-md-6 pl-md-7 text-center text-md-left">
+            <span class="eyebrow text-danger mb-1">Ready to play? Don’t just sit there — let the games begin!</span>
+            <h3 class="h2">Where Fun Breaks All Limits!</h3>
+            <p>Escape the ordinary and dive into non-stop excitement at The Vineyard’s Game Zone! From classic arcade challenges to adrenaline-pumping foosball and console games, we’ve got something for everyone. Whether you’re a casual gamer or a competitive champ, the Game Zone is where fun spreads—not stress!</p>
+            <a href="directory#gameZone" type="button" class="btn btn-xl btn-danger">Book Now</a>
           </div>
         </div>
       </div>
@@ -148,11 +163,11 @@ include "./components/navbarlight.php";
     <section class="bg-dark">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6 text-white text-center">
+          <div class="col-md-8 col-lg-8 text-white text-center">
             <h2><b>Opening</b> Hours</h2>
             <h5>Shop in a safe space</h5>
-            <p class="lead">Mon - Sat: 9am - 6pm<br> Sun: 10am - 6pm</p>
-            <h4>Call Us: <a href="tel:+2347011666864">0701 166 6864</a></h4>
+            <p class="lead">Mon - Sat: 9am - 7pm<br><span class="text-danger">Supermarket</span> Mon - Sat: 9am - 8pm<br> Sun: 11am - 7pm</p>
+            <h4 class="text-danger">Call Us:</h4> <h5><a href="tel:08124173351">08124173351</a> | <a href="tel:07041589373">07041589373</a> | <a href="tel:09129318756">09129318756</a> | <a href="tel:09087000285">09087000285</a></h5>
           </div>
         </div>
         <div class="row text-white" data-aos="fade-left">
@@ -170,7 +185,7 @@ include "./components/navbarlight.php";
           <div class="col-lg-6">
             <div class="row">
               <div class="col">
-                <h2>OUR SERVICES:<br> <b>SOME AWESOME</b> <br>THINGS WE DO.</h2>
+                <h2>WHAT WE HAVE TO OFFER</h2>
               </div>
             </div>
             <div class="row gutter-3">
@@ -178,8 +193,7 @@ include "./components/navbarlight.php";
                 <div class="media">
                   <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
                   <div class="media-body">
-                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Entertainment</h5>
-                    <p>A place designed for amusement, lots of fun activities  for the family.</p>
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Supermarket</h5>
                   </div>
                 </div>
               </div>
@@ -187,8 +201,7 @@ include "./components/navbarlight.php";
                 <div class="media">
                   <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
                   <div class="media-body">
-                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Fashion</h5>
-                    <p>For the latest, trendy, style, clothes and accessories for men, women and children.</p>
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Food Court</h5>
                   </div>
                 </div>
               </div>
@@ -196,8 +209,7 @@ include "./components/navbarlight.php";
                 <div class="media">
                   <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
                   <div class="media-body">
-                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Restaurant</h5>
-                    <p>An ambience for home made meals and relaxation with friends and associates.</p>
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Fun Foods & Juice Bar</h5>
                   </div>
                 </div>
               </div>
@@ -205,8 +217,55 @@ include "./components/navbarlight.php";
                 <div class="media">
                   <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
                   <div class="media-body">
-                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Kids Zone</h5>
-                    <p>Get your kids preoccupied with fun filled arcade games, play station, etc.</p>
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Arcade</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Kids Playground</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Event Halls</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Props to Rent</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Book Store</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Pharjo: Electronics and Gadgets Store</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                <div class="media">
+                  <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Xclusive Boutique: A boutique for kids and adults</h5>
                   </div>
                 </div>
               </div>
