@@ -16,7 +16,7 @@ include "./components/navbarlight.php";
                 <div class="container">
                   <div class="row justify-content-center align-items-center vh-90">
                     <div class="col-md-8 col-lg-8 text-center">
-                      <h1 class="display-2">A World of Fun, Food & Excitment Awaits</h1>
+                      <h1 class="display-2">A World of Fun, Food & Excitement Awaits</h1>
                       <a href="directory" type="button" class="btn btn-xl btn-white">Explore the Mall</a>
                     </div>
                   </div>
