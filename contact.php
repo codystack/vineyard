@@ -12,10 +12,10 @@ require_once "./config/auth_controller.php";
 
   if ($responseData->success) {
       // Verified successfully
-      echo "Success!";
+      //echo "Success!";
   } else {
       // Failed verification
-      echo "reCAPTCHA failed. Please try again.";
+      //echo "reCAPTCHA failed. Please try again.";
   }
 ?>
 
