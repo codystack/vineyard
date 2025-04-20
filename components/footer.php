@@ -35,6 +35,7 @@
 
 
     <script src="./assets/js/vendor.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="./assets/js/app.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="//code.tidio.co/5jp3rjgxxp00tz1xtzllemukkutin4zm.js" async></script> 
