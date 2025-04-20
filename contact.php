@@ -59,7 +59,7 @@ require_once "./config/auth_controller.php";
         </div>
         <div class="row">
           <div class="col">
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+            <form id="contactForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
               <div class="form-row mb-1">
                 <div class="col">
                   <input type="text" name="fullName" class="form-control form-control-minimal" placeholder="Name">

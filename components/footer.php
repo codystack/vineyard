@@ -41,6 +41,19 @@
     <script src="//code.tidio.co/5jp3rjgxxp00tz1xtzllemukkutin4zm.js" async></script> 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDODKndJ8udk9xrwV_9KZwzziQOgsAR3Ew&amp;callback=initMap" async defer></script>
 
+    <script>
+      document.getElementById("contactForm").addEventListener("submit", function(e) {
+        // Get the response token
+        var response = grecaptcha.getResponse();
+
+        // Check if the user has completed the reCAPTCHA
+        if (response.length === 0) {
+          e.preventDefault(); // Stop form submission
+          alert("Please verify you are not a robot.");
+          return false;
+        }
+      });
+    </script>
     <?php
       if (isset($_SESSION['success_message']))
       {
