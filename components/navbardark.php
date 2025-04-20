@@ -25,21 +25,26 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="rent-space" role="button">
-                  Rent a Space
+                <a class="nav-link" href="rental" role="button">
+                  Rental
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://vineyardmart.ng" target="_blank" role="button">
-                  Rent a Space
+                  Shop Online
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact" role="button">
+                  Contact Us
                 </a>
               </li>
             </ul>
 
             <ul class="navbar-nav align-items-center mr-0">
               <li class="nav-item dropdown">
-                <a class="nav-link btn btn-danger text-white px-3" href="contact" role="button">
-                  Get in Touch
+                <a class="nav-link btn btn-danger text-white px-3" href="https://booking.thevineyardmall.ng" target="_blank" role="button">
+                  Book a Space
                 </a>
               </li>
             </ul>

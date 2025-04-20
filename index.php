@@ -40,14 +40,14 @@ include "./components/navbarlight.php";
             </div>
 
             <div class="swiper-slide">
-              <div class="image image-overlay" style="background-image:url(./assets/images/hme1.jpeg)">
+              <div class="image image-overlay" style="background-image:url(./assets/images/kids-zone.jpeg)">
               </div>
               <div class="caption text-white" data-swiper-parallax="-100%">
                 <div class="container">
                   <div class="row justify-content-center align-items-center vh-90">
                     <div class="col-md-8 col-lg-8 text-center">
                       <h1 class="display-2">Fun filled games for kids</h1>
-                      <a href="directory" type="button" class="btn btn-xl btn-white">See More</a>
+                      <a href="directory" type="button" class="btn btn-xl btn-white">View Activities</a>
                     </div>
                   </div>
                 </div>
@@ -265,7 +265,7 @@ include "./components/navbarlight.php";
                 <div class="media">
                   <i class="icon-check-circle2 fs-30 text-danger mr-2"></i>
                   <div class="media-body">
-                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Xclusive Boutique: A boutique for kids and adults</h5>
+                    <h5 class="mt-0 text-uppercase font-weight-bold fs-14 letter-spacing">Xclusive: A boutique for kids and adults</h5>
                   </div>
                 </div>
               </div>
